@@ -10,11 +10,11 @@ body {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    background-color: black;
+    background-color: rgba(255, 161, 161, 0);
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgba(252, 150, 150, 0);
     color: #fff;
     padding: 1em 0;
 }
@@ -24,7 +24,7 @@ header h1 {
 }
 
 h1{
-    color: white;
+    color: black;
     margin: 0%;
     margin-left: 20px;
     margin-top: 20px;
@@ -54,7 +54,14 @@ nav a {
 
 /*contenido pagina*/
 
+video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
 
+}
 
 /*pie de pagina*/
 .pieDePagina {
@@ -63,44 +70,56 @@ nav a {
     overflow: hidden;
 }
 
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     padding: 2em 0;
 }
 
-.pie {
+.pie-col {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 5px;
 }
 
-.pie {
-    width: 30%;
+.pie-col {
+    width: 25%;
+    padding: 0 15px;
     margin-bottom: 20px;
 }
 
-.pie h2 {
+.pie-col h2 {
     font-size: 18px;
     margin-bottom: 10px;
-    margin-left: 5px;
+    position: relative;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 
-.pie p {
+.pie-col p {
     font-size: 14px;
-    margin-left: 5px;
+    
 }
 
-.pie ul {
+table{
+    padding-left: 100px;
+    width: 100%;
+}
+
+.pie-col ul {
     list-style: none;
     padding: 0;
 }
 
-.pie a {
+.pie-col a {
     text-decoration: none;
     color: #fff;
-    margin-left: 5px;
 }
 
 .fondo {
