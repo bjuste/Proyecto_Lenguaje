@@ -8,62 +8,42 @@
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<div id="div-formulario">
-		<form id="formulario" action="registro.php" method="post">
-			<h1>Formulario de contacto</h1>
-			<div id="cajas">
-				<label for="nombre">Nombre</label>
-				<input type="text" id="nombre" name="nombre" class="entrada borde-redondo" required placeholder="Introduzca su nombre">
-			</div>
-			<div>
-				<label for="prapellido">Primer Apellido</label>
-				<input type="text" id="prapellido" name="prapellido" class="entrada borde-redondo" required placeholder="Introduzca su primer apellido">
-			</div>
-			<div>
-				<label for="sgapellido">Segundo Apellido</label>
-				<input type="tel" id="sgapellido" name="sgapellido" class="entrada borde-redondo" required placeholder="Introduzca su segundo apellido">
-			</div>
-			<div>
-				<label for="telefono">Telefono</label>
-				<input type="text" id="telefono" name="telefono" class="entrada borde-redondo" required placeholder="Introduzca su telefono">
-			</div>
-			<div>
-				<label for="correo">Correo</label>
-				<input type="email" id="correo" name="correo" class="entrada borde-redondo" required placeholder="Introduzca su email">
-			</div>
-			<div>
-				<label for="mensaje">Duda/Consultas</label>
-				<input type="textarea" id="mensaje" name="mensaje" class="entrada borde-redondo" placeholder="Describa su consulta" maxlength="300">
-			</div>
-			<div>
-				<input type="submit" value="Enviar datos" id="boton-aceptar" class="borde-redondo">
-			</div>
-		</form>
+	<nav>
+		<a href="PaginaPrincipal.html"><img src="Black_and_Yellow_Illustrative_Travel_Agency_Logo-removebg-preview.png" class="logo"></a>
+	</nav>
+	<div class="wrapper">
+		<div id="div-formulario">
+			<form id="formulario" action="registro.php" method="post">
+				<h1>Formulario de contacto</h1>
+				<div class="input-box">
+					<label for="nombre">Nombre</label>
+					<input type="text" required placeholder="Introduzca su nombre">
+				</div>
+				<div class="input-box">
+					<label for="prapellido">Primer Apellido</label>
+					<input type="text" id="prapellido" name="prapellido" class="entrada borde-redondo" required placeholder="Introduzca su primer apellido">
+				</div>
+				<div class="input-box">
+					<label for="sgapellido">Segundo Apellido</label>
+					<input type="tel" id="sgapellido" name="sgapellido" class="entrada borde-redondo" required placeholder="Introduzca su segundo apellido">
+				</div>
+				<div class="input-box">
+					<label for="telefono">Telefono</label>
+					<input type="text" id="telefono" name="telefono" class="entrada borde-redondo" required placeholder="Introduzca su telefono">
+				</div>
+				<div class="input-box">
+					<label for="correo">Correo</label>
+					<input type="email" id="correo" name="correo" class="entrada borde-redondo" required placeholder="Introduzca su email">
+				</div>
+				<div class="input-box">
+					<label for="mensaje">Duda/Consultas</label>
+					<input type="textarea" id="mensaje" name="mensaje" class="entrada borde-redondo" placeholder="Describa su consulta" maxlength="300">
+				</div>
+				
+					<button type="submit" class="button">Enviar</button>
+				
+			</form>
+		</div>
 	</div>
-	<footer>
-    <div class="footerContainer">
-        <div class="socialIcons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-google-plus"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </div>
-        <div class="footerNav">
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Noticias</a></li>
-                <li><a href="">Sobre nosotros</a></li>
-                <li><a href="">Contactanos</a></li>
-                <li><a href="">Nuestro Equipo</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footerBottom">
-        <p>
-            Copyright &copy;2024 Bruno y Dani
-        </p>
-    </div>
-</footer>
 </body>
 </html>

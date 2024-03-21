@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .menu{
@@ -100,14 +100,14 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 .card{
     position: relative;
     width: 300px;
     height: 350px;
-    margin-left: 20px;
+    margin-left: 50px;
     display: flex;
 }
 
@@ -182,13 +182,17 @@ nav ul li a{
 
 footer{
     background-color: gray;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    position: fixed;
 }
 
 .footerContainer{
     width: 100%;
-    padding: 10px 10px 10px;
+    padding: 5px 5px 5px;
 }
-
+ 
 .socialIcons{
     display: flex;
     justify-content: center;
@@ -198,7 +202,7 @@ footer{
     text-decoration: none;
     padding: 10px;
     background-color: orange;
-    margin: 10px;
+    margin: 5px;
     border-radius: 50%;
 }
 
@@ -218,33 +222,12 @@ footer{
     transition: 0.5s;
 }
 
-.footerNav{
-    margin: 15px 0;
-}
-
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.footerNav ul li a{
-    color: white;
-    margin: 30px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transform: 0.5s;
-}
-
-.footerNav ul li a:hover{
-    opacity: 1;
-}
-
 .footerBottom{
     background-color: gray;
     padding: 20px;
     text-align: center;
+    bottom: 0;
+    width: 100%;
 }
 
 .footerBottom p{
